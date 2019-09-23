@@ -22,3 +22,5 @@ It is equally important to protect the data while it is stored in Amazon RDS and
 
 Finally, we took several measures to protect the patient data by implementing encryption at rest, but it is equally important to protect the application configuration data which is in Amazon EC2 instance storage volume provided by Amazon Elastic Block Storage(EBS). AWS provides the option to encrypt the EBS volume. To encypt the patient data as well as the server configuration data, we will use Amazon Key Management Service (KMS).
 ![data_at_rest](https://user-images.githubusercontent.com/7229266/65442648-685fce00-dde1-11e9-90f5-0d1a75364e1a.png)
+
+## High Availability
