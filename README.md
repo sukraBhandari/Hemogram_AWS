@@ -11,7 +11,7 @@ The application will handle functions such as user sign up/sign in, patient regi
 
 
 ## Data Security
-Since, the Hemogram application is processing sensitive patient data, it is very crucial protect these data. To protect the data, end-to-end encryption is required. In this section, I am exploring the idea of encrypting the data while it is in transit and at rest. 
+Since, the Hemogram application is processing sensitive Patient Health Information (PHI) data, it is very crucial protect these data. To protect the data, end-to-end encryption is required. In this section, I am exploring the idea of encrypting the data while it is in transit and at rest. 
 
 ### In transit
 The diagram below depicts the data flow through various component of the application and how the data can be encrypted as it moves from one compoment to another. 
