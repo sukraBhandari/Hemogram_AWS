@@ -20,7 +20,9 @@ The diagram below depicts the data flow through various component of the applica
 ### At rest
 It is equally important to protect the data while it is stored in Amazon RDS and Amazon S3 as it is when the data is in transit. For Amazon RDS and Amazon S3, we can enable encryption option to protect the data while at rest. 
 
-Finally, we took several measures to protect the patient data by implementing encryption at rest, but it is equally important to protect the application configuration data which is in Amazon EC2 instance storage volume provided by Amazon Elastic Block Storage(EBS). AWS provides the option to encrypt the EBS volume. To encypt the patient data as well as the server configuration data, we will use Amazon Key Management Service (KMS).
+All the steps we took so far provides side-to-side encryption of user and patient data. The next compoment that we need to consider encrypting is EC2 instance's Elastic Block Store (EBS) volume, which stores server configuration data. AWS provides the option to encrypt the EBS volume. 
+
+To encypt the user and patient data as well as the server configuration data, we will use Amazon Key Management Service (KMS) which gives us the flexibility to manage the encryption key.
 ![data_at_rest](https://user-images.githubusercontent.com/7229266/65449005-e9719200-ddee-11e9-834a-0459abc12495.png)
 
 ## High Availability
