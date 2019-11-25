@@ -26,3 +26,14 @@ To encypt the user and patient data as well as the server configuration data, we
 ![data_at_rest](https://user-images.githubusercontent.com/7229266/65449005-e9719200-ddee-11e9-834a-0459abc12495.png)
 
 ## High Availability
+--TODO
+
+
+
+**Author**
+---
+Sukra Bhandari
+
+
+
+
